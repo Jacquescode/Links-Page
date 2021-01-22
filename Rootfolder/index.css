@@ -1,19 +1,59 @@
 header {
-  color: red;
-  font-family: verdana, arial, sans-serif;
+  font-family: impact, arial, sans-serif;
   text-align: center;
-  padding: 50px 100px 50px 100px;
+  padding: 50px 50px 50px 50px;
   margin: 20px 50px 20px 50px;
-  background-color: grey;
+  border: solid;
+  border-width: medium;
+  border-radius: 30px;
+  background-color: orange;
 }
 
-#Intro {
-  text-align: right;
-  position: absolute;
-  left: 400px;
-  margin-right: 50px;
+Main {
+  font-family: verdana, arial, sans-serif;
+  text-align:justify;
+  padding: 50px 20px 120px 200px;
+  margin: 0px 50px 20px 50px;
+  border: inset;
+  border-radius: 30px;
+  background-image: url("../images/bitmoji.0.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:250px;
 }
 
-img {
-  float: left;
+h1.Main {
+  color: orange
+}
+
+footer {
+ font-family: verdana, arial, sans-serif;
+ text-align: center;
+ text-decoration: underline;
+ padding: 20px 0px 20px 0px;
+ margin: 0px 50px 20px 50px;
+ border: dashed;
+ border-radius: 30px;
+ background-image: url("../images/bitmoji.gif");
+ background-repeat: no-repeat;
+ background-position: right;
+ background-size: 50px;
+}
+
+.language {
+  font-style: oblique;
+}
+
+.Headfirst {
+  color: purple;
+  font-weight: bold;
+}
+
+.space {
+  font-weight: bold;
+}
+
+.H {
+  font-weight: bolder;
+  font-size: 135%;
 }
