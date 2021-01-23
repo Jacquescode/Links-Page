@@ -25,6 +25,29 @@ Main {
 h1.Main {
   color: orange
 }
+div#tableContainer {
+  display: table;
+  margin: 0px 50px 0px 50px;
+
+}
+div#tableRow {
+  display: table-row;
+}
+#one {
+  display: table-cell;
+width: 250px;
+border:
+}
+#two {
+  display: table-cell;
+  width: 250px;
+
+}
+#three {
+  display: table-cell;
+width: 250px;
+
+}
 
 footer {
  font-family: verdana, arial, sans-serif;
@@ -39,7 +62,10 @@ footer {
  background-position: right;
  background-size: 50px;
 }
-
+.H {
+  font-weight: bolder;
+  font-size: 135%;
+}
 .language {
   font-style: oblique;
 }
@@ -51,9 +77,4 @@ footer {
 
 .space {
   font-weight: bold;
-}
-
-.H {
-  font-weight: bolder;
-  font-size: 135%;
 }
