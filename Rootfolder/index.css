@@ -26,19 +26,6 @@ h1.Main {
   color: orange
 }
 
-footer {
- font-family: verdana, arial, sans-serif;
- text-align: center;
- text-decoration: underline;
- padding: 20px 0px 20px 0px;
- margin: 0px 50px 20px 50px;
- border: dashed;
- border-radius: 30px;
- background-image: url("../images/bitmoji.gif");
- background-repeat: no-repeat;
- background-position: right;
- background-size: 50px;
-}
 .H {
   font-weight: bolder;
   font-size: 135%;
@@ -62,9 +49,31 @@ footer {
     text-align: center;
 }
 
-img.left, img.center, img.right {
-border: solid;
-text-align:center;
-width: 300px;
-margin: 20px 25px 20px 25px;
+img.tools, img.games, img.learning {
+    text-align:center;
+    margin: 20px 25px 20px 25px;
+    border: outset;
+    border-radius: 30px;
+    width: 300px;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+ color: green;
+}
+
+footer {
+ font-family: verdana, arial, sans-serif;
+ text-align: center;
+ text-decoration: underline;
+ padding: 20px 0px 20px 0px;
+ margin: 0px 50px 20px 50px;
+ border: dashed;
+ border-radius: 30px;
+ background-image: url("../images/bitmoji.gif");
+ background-repeat: no-repeat;
+ background-position: right;
+ background-size: 50px;
 }
