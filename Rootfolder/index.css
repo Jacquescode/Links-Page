@@ -39,7 +39,10 @@ footer {
  background-position: right;
  background-size: 50px;
 }
-
+.H {
+  font-weight: bolder;
+  font-size: 135%;
+}
 .language {
   font-style: oblique;
 }
@@ -53,7 +56,15 @@ footer {
   font-weight: bold;
 }
 
-.H {
-  font-weight: bolder;
-  font-size: 135%;
+.tile-page-content {
+    margin: 0px 50px 20px 50px;
+    position: relative;
+    text-align: center;
+}
+
+img.left, img.center, img.right {
+border: solid;
+text-align:center;
+width: 300px;
+margin: 20px 25px 20px 25px;
 }
