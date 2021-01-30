@@ -2,28 +2,27 @@ header {
   font-family: impact, arial, sans-serif;
   text-align: center;
   padding: 50px 50px 50px 50px;
-  margin: 20px 50px 20px 50px;
-  border: solid;
-  border-width: medium;
+  margin: 30px 25px 20px 25px;
   border-radius: 30px;
-  background-color: orange;
+  background-color: #ffb142;
 }
 
 Main {
   font-family: verdana, arial, sans-serif;
   text-align:justify;
   padding: 50px 20px 120px 200px;
-  margin: 0px 50px 20px 50px;
-  border: inset;
+  margin: 0px 25px 20px 25px;
+  border: groove;
   border-radius: 30px;
-  background-image: url("../images/bitmoji.0.png");
+  background-image: url("../images/MyBitmoji.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size:250px;
+  background-color: #b2bec3;
 }
 
 h1.Main {
-  color: orange
+  color: #ffb142;
 }
 
 .H {
@@ -49,12 +48,13 @@ h1.Main {
     text-align: center;
 }
 
-img.tools, img.games, img.learning {
+img.tools, img.games, img.programmerpath{
     text-align:center;
     margin: 20px 25px 20px 25px;
-    border: outset;
+    border: solid;
     border-radius: 30px;
     width: 300px;
+
 }
 
 a:link {
@@ -63,17 +63,30 @@ a:link {
 a:visited {
  color: green;
 }
+a:hover {
+  color: blue;
+}
 
 footer {
  font-family: verdana, arial, sans-serif;
  text-align: center;
- text-decoration: underline;
  padding: 20px 0px 20px 0px;
- margin: 0px 50px 20px 50px;
- border: dashed;
- border-radius: 30px;
- background-image: url("../images/bitmoji.gif");
+ margin: 0px 0px 20px 0px;
+ border-top: dashed;
+ border-bottom: dashed;
+ background-image: url("../images/Bitmoji.png");
  background-repeat: no-repeat;
  background-position: right;
  background-size: 50px;
+}
+
+.sources {
+font-weight: bold;
+}
+
+body {
+  border: solid;
+  margin: 35px;
+  border-radius: 30px;
+  background-color: #dfe6e9;
 }
