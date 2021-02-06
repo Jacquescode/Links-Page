@@ -1,5 +1,6 @@
 header {
-  font-family: impact, arial, sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
   text-align: center;
   padding: 50px 50px 50px 50px;
   margin: 30px 25px 20px 25px;
@@ -8,7 +9,8 @@ header {
 }
 
 Main {
-  font-family: verdana, arial, sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
   text-align:justify;
   padding: 50px 20px 120px 200px;
   margin: 0px 25px 20px 25px;
@@ -68,7 +70,7 @@ a:hover {
 }
 
 footer {
- font-family: verdana, arial, sans-serif;
+ font-family: 'Pangolin', cursive;
  text-align: center;
  padding: 20px 0px 20px 0px;
  margin: 0px 0px 20px 0px;
