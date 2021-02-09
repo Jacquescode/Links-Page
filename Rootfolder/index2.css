@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    height: 100vh;
+
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+border: solid;
+}
+
+main {
+border: dotted;
+display: grid;
+height: 100vh;
+
+grid-template-rows: repeat(8);
+align-items: center;
+}
+
+main .intro {
+    grid-row-start: 2 / span 4;
+}
+
+main .link {
+    display: flex;
+    justify-content: center;
+    grid-row-start: 5 / span 8;
+    
+}
+img.tools, img.games, img.programmerpath{
+    width: 200px;
+    padding: 20px;
+}
+
+footer {
+    border: solid;
+}
+
