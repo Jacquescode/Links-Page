@@ -6,6 +6,7 @@
 }
 
 header{
+text-align: center;
 border: solid;
 font-family: 'Pangolin', cursive;
 font-size: 20px;
@@ -13,16 +14,20 @@ background-color: #ffb142;
 }
 
 main {
-display: flex;   
 border: solid;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: column;
-background-image: url("../images/MyBitmoji.png");
-background-repeat: no-repeat;
-background-position: left;
-background-size:250px;
+display: flex;
+flex-wrap: wrap;
 background-color: #b2bec3;
+align-items: center;
+justify-content: center;
+}
+.box1 {
+  border: solid;
+}
+.box2 {
+  border: solid;
+  width: fit-content;
+  width: 400px;
 }
 
 h1.Main {
@@ -44,12 +49,6 @@ h1.Main {
   
   .space {
     font-weight: bold;
-  }
-  
-  .tile-page-content {
-      margin: 0px 50px 20px 50px;
-      position: relative;
-      text-align: center;
   }
 
   Aside {
