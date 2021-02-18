@@ -1,6 +1,6 @@
-body {
-  border: solid;
-  margin: 35px;
-  border-radius: 30px;
-  background-color: #dfe6e9;
+.container {
+  display: grid;
+  height: 100vh;
+
+  grid-template-rows: auto 1fr auto;
 }

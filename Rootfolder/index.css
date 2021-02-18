@@ -1,94 +1,87 @@
-header {
-  font-family: 'Pangolin', cursive;
-  font-size: 20px;
-  text-align: center;
-  padding: 50px 50px 50px 50px;
-  margin: 30px 25px 20px 25px;
-  border-radius: 30px;
-  background-color: #ffb142;
+
+.container {
+    display: grid;
+    height: 100vh;
+
+    grid-template-rows: auto 1fr 1fr auto;
+}
+header{
+ text-align: center;
+ font-size: 35px;
+ margin: 20px 25px 20px 25px;
 }
 
-Main {
-  font-family: 'Pangolin', cursive;
-  font-size: 20px;
-  text-align:justify;
-  padding: 50px 20px 120px 200px;
-  margin: 0px 25px 20px 25px;
-  border: groove;
-  border-radius: 30px;
-  background-image: url("../images/MyBitmoji.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size:250px;
-  background-color: #b2bec3;
+main {
+ display:flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ margin: 20px 25px 20px 25px;
+ font-size: 25px ;
+}
+.maintext {
+  flex-basis: 75% ;
 }
 
 h1.Main {
   color: #ffb142;
 }
-
+  
 .H {
   font-weight: bolder;
   font-size: 135%;
 }
+
 .language {
   font-style: oblique;
 }
-
+  
 .Headfirst {
   color: purple;
   font-weight: bold;
 }
-
+  
 .space {
   font-weight: bold;
 }
 
-.tile-page-content {
-    margin: 0px 50px 20px 50px;
-    position: relative;
-    text-align: center;
-}
-
-img.tools, img.games, img.programmerpath{
-    text-align:center;
-    margin: 20px 25px 20px 25px;
-    border: solid;
-    border-radius: 30px;
-    width: 200px;
-
+Aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px 0px 150px 0px;
+  margin: 20px 25px 20px 25px;
+  text-align: center;
 }
 
 a:link {
   color: red;
 }
 a:visited {
- color: green;
+  color: green;
 }
 a:hover {
   color: blue;
+}    
+
+img.tools, img.games, img.programmerpath{
+  border: solid;
+  border-radius: 30px;
+  width: 200px;
+  margin: 25px;
+    
 }
 
 footer {
- font-family: 'Pangolin', cursive;
- text-align: center;
- padding: 20px 0px 20px 0px;
- margin: 0px 0px 20px 0px;
- border-top: dashed;
- border-bottom: dashed;
- background-image: url("../images/Bitmoji.png");
- background-repeat: no-repeat;
- background-position: right;
- background-size: 50px;
+  text-align: center;
+  background-image: url("../images/Bitmoji.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 20px 25px 20px 25px;
+  background-size: 50px;
 }
 
 .sources {
-font-weight: bold;
+  font-weight: bold;
 }
 
-body {
-  border: solid;
-  margin: 35px;
-  border-radius: 30px;
-  background-color: #dfe6e9;
-}
