@@ -20,7 +20,8 @@ main {
  font-size: 25px ;
 }
 .maintext {
-  flex-basis: 75% ;
+  flex-basis: 70% ;
+  padding-right: 20px;
 }
 
 h1.Main {
