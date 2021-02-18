@@ -15,14 +15,17 @@ background-color: #ffb142;
 
 main {
 border: solid;
-display: flex;
+display:flex;
 flex-wrap: wrap;
 background-color: #b2bec3;
 align-items: center;
 justify-content: center;
 }
-.box1 {
-  border: solid;
+@media (min-width: 375px) {
+  .task-6 .item {
+    display: flex;
+    flex-basis: 25%;
+  }
 }
 .box2 {
   border: solid;
