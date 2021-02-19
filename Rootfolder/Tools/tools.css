@@ -4,3 +4,9 @@
 
   grid-template-rows: auto 1fr auto;
 }
+
+header{
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 25px 20px 25px;
+ }
