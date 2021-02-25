@@ -68,7 +68,7 @@ a:hover {
   color: blue;
 }    
 
-img.tools, img.games, img.programmerpath{
+img.tools, img.games, img.webdevpath{
   border: solid;
   border-radius: 30px;
   max-width: 200px;
