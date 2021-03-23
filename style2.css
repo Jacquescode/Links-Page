@@ -9,17 +9,21 @@
   color: #222;
   }
 
-  #container {
-      display:grid;
-      grid-template-columns: repeat(12, 1fr);
+  .menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 15px;
   }
 
-  .logo {
-      grid-column: 2/4;
+  .links__button {
+      color: #FFA903;
+      background-color: #222;
+      padding: 0px 30px;
+      border-radius: 15px;
   }
 
-  .menu__option {
-      grid-column: 5/8;
+  .links {
       
+      margin: 10px;
   }
-  
