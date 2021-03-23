@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+margin: 0;
+color: #222;
+}
 
 .container {
     display: grid;
@@ -50,12 +60,14 @@ h1.Main {
 
 Aside {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 150px 0px 150px 0px;
   margin: 20px 25px 20px 25px;
   text-align: center;
   width: auto;
+  text-decoration: none;
 }
 
 a:link {
@@ -66,7 +78,11 @@ a:visited {
 }
 a:hover {
   color: blue;
-}    
+}  
+
+a {
+  text-decoration: none;
+}
 
 img.tools, img.games, img.webdevpath{
   border: solid;
@@ -91,4 +107,5 @@ footer {
 .sources {
   font-weight: bold;
 }
+
 
