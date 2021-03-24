@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font: inherit;
     color: inherit;
+    background-image: ;
   }
   
   body {
@@ -27,3 +28,39 @@
       
       margin: 10px;
   }
+
+  .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+  }
+
+
+  .main__text {
+
+    padding: 100px;
+  }
+
+  .main__photo {
+      padding: 100px;
+  }
+
+  .content {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      
+  }
+
+  .about-me {
+      grid-column: 1/7;
+      padding: 100px 0;
+  }
+
+  .headfirst {
+      grid-column: 7/13;
+      background-color: #FFA903;
+      padding: 100px 0; 
+  }
+
+ 
