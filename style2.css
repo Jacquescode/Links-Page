@@ -2,19 +2,32 @@
     box-sizing: border-box;
     font: inherit;
     color: inherit;
-    background-image: ;
   }
   
   body {
   margin: 0;
   color: #222;
+  background-image: url("images/webb.png");
+
   }
 
   .menu {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
       justify-content: space-around;
       align-items: center;
       padding-top: 15px;
+  }
+
+  .logo {
+      grid-column: 1/span 1;
+  }
+
+  .nav {
+      display: flex;
+      list-style: none;
+      grid-column: 2/span 9;
+      
   }
 
   .links__button {
@@ -22,11 +35,14 @@
       background-color: #222;
       padding: 0px 30px;
       border-radius: 15px;
+      grid-column: 11;
   }
 
   .links {
       
       margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
   }
 
   .main {
@@ -39,7 +55,17 @@
 
   .main__text {
 
-    padding: 100px;
+    padding: 0px 50px;
+  }
+  
+  h1.title {
+    font-weight: bolder;
+    font-size: 70px;
+  }
+
+  h3.subtitle {
+      font-size: 40px;
+      color: grey;
   }
 
   .main__photo {
@@ -54,13 +80,45 @@
 
   .about-me {
       grid-column: 1/7;
-      padding: 100px 0;
+      padding: 100px;
+      background-color: white;
+  }
+  h3.about__me {
+      font-weight: bolder;
+      color: #ffb142;
+      font-size: 40px;
+
+  }
+    
+  .H {
+    font-weight: bolder;
+    font-size: 135%;
+  }
+  
+  .language {
+    font-style: oblique;
+  }
+    
+  .Headfirst {
+    color: purple;
+    font-weight: bold;
+  }
+    
+  .space {
+    font-weight: bold;
   }
 
   .headfirst {
+      display: flex;
       grid-column: 7/13;
       background-color: #FFA903;
-      padding: 100px 0; 
+      padding: 100px 0;
+      align-items: center;
+      justify-content: center;
+      gap: 50px; 
   }
 
- 
+ img.mario {
+     position: absolute;
+     left: 550px;
+ }
