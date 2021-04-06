@@ -157,4 +157,7 @@ img.mario {
     grid-column: 7/13;
     padding: 100px 0;
   }
+
+  img.mario {
+  }
 }
