@@ -7,7 +7,7 @@
 body {
   margin: 0;
   color: #222;
-  background-image: url("images/webb.png");
+  background-image: url("../images/webb.png");
 }
 
 .menu {
@@ -22,7 +22,8 @@ body {
   display: none;
   color: #ffa903;
   background-color: #222;
-  padding: 0px 30px;
+  text-align: center;
+  font-weight: bolder;
   border-radius: 15px;
 }
 
@@ -94,6 +95,49 @@ img.mario {
   left: 25em;
 }
 
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.featured-desc {
+  color: #252525;
+  margin-top: 3em;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.skills {
+  background: #2f2f2f;
+}
+
+.skills-container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+
+  .icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+  }
+
+  .skill-title {
+    font-weight: bold;
+  }
+
+  .featured-desc {
+    margin-bottom: 2em;
+  }
+
+  img {
+    border-radius: 1em;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .menu {
     display: flex;
@@ -159,5 +203,11 @@ img.mario {
   }
 
   img.mario {
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
   }
 }

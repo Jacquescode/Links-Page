@@ -1,62 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-  content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <title>jonaspace</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/LogoMakr-1jOMr6.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Jonaspace</title>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <h1>Hello you, welcome to my place!</h1>
-    </header>
-    <Main>
-      <img class="MyBitmoji" src="images/MyBitmoji.png" alt="MyBitmojiimage" width="400px">
-      <div class="maintext">
-        <h1 class="Main">About Me</h1>
-        <p>
-          <span class="H">H</span>ello world! Jona here, I have completed a
-          <span class="language">HTML/CSS</span> formation book named
-          <span class="Headfirst">Headfirst</span> and
-          now I'm ready to practice my skills! I also started the
-          <span class="language">Javascript</span> book of
-          the same edition.
-          <br>
-          <br>
-          <span class="space">ohh and I love space stuff!</span>
-        </p>
-      </div>
-    </Main>
-    <aside>
-      <div>
-        <a href="Rootfolder/Tools/tools.html" title="TOOLS">
-          <img class="tools" src="images/day9-toolbox.png" alt="TOOLS" TOOLS>
-          <p>TOOLS</p>
-        </a>
-      </div>
-      <div>
-        <a href="Rootfolder/Games/games.html" title="GAMES">
-          <img class="games" src="images/116-gameboy.png" alt="GAMES">
-          <p>GAMES</p>
-        </a>
-      </div>
-      <div>
-        <a href="Rootfolder/webdevpath/webdevpath.html" title="WEB DEV PATH">
-          <img class="webdevpath" src="images/112-installing.png" alt="WEB DEV PATH">
-          <p id="#">WEB DEV PATH</p>
-        </a>
-      </div>
-    </aside>
-    <footer>
-      <p>Images sources:<span class="sources">Bitmoji</span> and
-        <span class="sources">Illlustration</span>
-      </p>
-    </footer>
-  </div>
+    <div id="container">
+        <div class="menu">
+            <div class="logo">
+                <img class="logo" src="images/fulllogo.png" alt="Logo" width="200px">
+            </div>
+            <div class="menu__option">
+              <ul class="nav">
+                <li><a class="links" href="Rootfolder/Tools/tools.html" title="Tools">Tools</a></li>
+                <li><a class="links" href="Rootfolder/Games/games.html" title="Games">Games</a></li>
+                <li><a class="links" href="Rootfolder/webdevpath/webdevpath.css" title="Path">Path</a></li>
+              </ul>
+            </div>
+            <div class="links__button">
+                <p>Links</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__text">
+                <h3 class="subtitle">Where my favorite stuff are all together</h3>
+                <h1 class="title">Welcome to my space</h1>
+                <img src="images/Vector 1.png" alt="vector">
+            </div>
+            <div class="main__photo">
+                <img src="images/MyBitmoji.png" alt="mybitmoji">
+            </div>
+        </div>
+        <div class="content">
+            <div class="about-me">
+                <h3 class="about__me">About Me</h3>
+                <p>
+                    <span class="H">H</span>ello world! Jona here, I have completed a
+                    <span class="language">HTML/CSS</span> formation book named
+                    <span class="Headfirst">Headfirst</span> and
+                    now I'm ready to practice my skills! I also started the
+                    <span class="language">Javascript</span> book of
+                   the same edition.
+                 <br>
+                 <br>
+                   <span class="space">ohh and I love space stuff!</span>
+                </p>
+            </div>
+            <img class="mario" src="images/bitmojimario.png" alt="bitmoji">
+            <div class="headfirst">
+                <img class="headfirstphoto" src="images/th (1).jpeg" alt="Headfirst" width="200px">
+                <img class="headfirstphoto" src="images/th.jpeg" alt="Headfirst" width="200px">
+            </div>
+        </div>
+        <section class="skills">
+          <div class="skills-container">
+            <ul>
+                <li class="transition2">
+                    <div class="icon-container">
+                      <img src="images/day9-toolbox.png" alt="Tools" width="150px" height="150px">
+                    </div>
+                    <h6 class="skill-title">Tools</h6>
+                    <p class="featured-desc skill-desc">Some useful tools that I made with Javascript</p>
+                </li>
+                <li class="transition2">
+                  <div class="icon-container">
+                   <img src="images/116-gameboy.png" alt="Games" width="150px" height="150px">
+                  </div>
+                  <h6 class="skill-title">Games</h6>
+                  <p class="featured-desc skill-desc">Funny Games that I made with Javascrit</p>
+                </li>
+                <li class="transition2">
+                  <div class="icon-container">
+                   <img src="images/112-installing.png" alt="Path" width="150px" height="150px">
+                  </div>
+                  <h6 class="skill-title">Path</h6>
+                  <p class="featured-desc skill-desc">You can more ressources here that I used for my learning</p>
+                </li>
+            </ul>
+          </div>
+        </section>
+    </div>
 </body>
 
 </html>
