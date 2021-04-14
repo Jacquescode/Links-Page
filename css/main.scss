@@ -42,7 +42,7 @@ body {
 
 h1.title {
   font-weight: bolder;
-  font-size: 70px;
+  font-size: 5vw;
 }
 
 h3.subtitle {
@@ -89,11 +89,10 @@ h3.about__me {
   padding: 25px 0;
 }
 
-img.mario {
-  display: none;
-  position: absolute;
-  left: 25em;
-}
+// img.mario {
+//   display: none;
+//   position: absolute;
+// }
 
 section {
   padding: 4em 2em;
@@ -114,28 +113,42 @@ section {
 
 .skills-container ul li {
   background: white;
-  padding: 2em;
+  padding-top: 4em;
   border-radius: 1em;
   margin-bottom: 1em;
+}
 
-  .icon-container {
-    height: 100px;
-    display: grid;
-    place-content: center;
-    margin: 0 auto;
-  }
+.icon-container {
+  height: 100px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
 
-  .skill-title {
-    font-weight: bold;
-  }
+.skill-title {
+  font-weight: bold;
+}
 
-  .featured-desc {
-    margin-bottom: 2em;
-  }
+.featured-desc {
+  margin-bottom: 2em;
+}
 
-  img {
-    border-radius: 1em;
-  }
+img {
+  border-radius: 1em;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 700px) {
@@ -188,26 +201,22 @@ section {
   }
 
   .content {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
   }
 
   .about-me {
-    grid-column: 1/7;
+    width: 50%;
     padding: 100px;
   }
 
   .headfirst {
-    grid-column: 7/13;
+    width: 50%;
     padding: 100px 0;
-  }
-
-  img.mario {
   }
 
   .skills-container ul {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 1em;
+    grid-gap: 2em;
   }
 }

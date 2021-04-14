@@ -47,7 +47,7 @@ body {
 
 h1.title {
   font-weight: bolder;
-  font-size: 70px;
+  font-size: 5vw;
 }
 
 h3.subtitle {
@@ -101,12 +101,6 @@ h3.about__me {
   padding: 25px 0;
 }
 
-img.mario {
-  display: none;
-  position: absolute;
-  left: 25em;
-}
-
 section {
   padding: 4em 2em;
   text-align: center;
@@ -126,12 +120,12 @@ section {
 
 .skills-container ul li {
   background: white;
-  padding: 2em;
+  padding-top: 4em;
   border-radius: 1em;
   margin-bottom: 1em;
 }
 
-.skills-container ul li .icon-container {
+.icon-container {
   height: 100px;
   display: -ms-grid;
   display: grid;
@@ -139,16 +133,32 @@ section {
   margin: 0 auto;
 }
 
-.skills-container ul li .skill-title {
+.skill-title {
   font-weight: bold;
 }
 
-.skills-container ul li .featured-desc {
+.featured-desc {
   margin-bottom: 2em;
 }
 
-.skills-container ul li img {
+img {
   border-radius: 1em;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 700px) {
@@ -208,21 +218,16 @@ section {
     padding: 100px;
   }
   .content {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[12];
-        grid-template-columns: repeat(12, 1fr);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .about-me {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 6;
-    grid-column: 1/7;
+    width: 50%;
     padding: 100px;
   }
   .headfirst {
-    -ms-grid-column: 7;
-    -ms-grid-column-span: 6;
-    grid-column: 7/13;
+    width: 50%;
     padding: 100px 0;
   }
   .skills-container ul {
@@ -230,7 +235,7 @@ section {
     display: grid;
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
-    grid-gap: 1em;
+    grid-gap: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
