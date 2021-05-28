@@ -1,9 +1,5 @@
-# My-dynamic-home-page
+# Links Page
 
-A home page for practicing my HTML/CSS and grouping my future project toghether.
+My links page who we can find in my bio of my social media.  
 
-Hello world!
-
-Jona here, I have completed a HTML/CSS formation book named Headfirst and now I'm ready to practice my skills! I also started the Javascript book of the same edition.
-
-ohh and I love space stuff!
+It will be in this links page that I will reunite all my projects  together.
