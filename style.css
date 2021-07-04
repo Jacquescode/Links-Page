@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"); /*font-family: "Poppins", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap"); /*font-family: 'Palanquin Dark', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap"); /*font-family: 'Salsa', cursive;*/
 
 * {
   margin: 0;
@@ -7,56 +11,66 @@
 }
 
 .container {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #16fef7, #1686fe);
 }
 
-.card {
+nav {
   width: 400px;
-  height: 660px;
-  margin: 30px;
-  border-radius: 20px;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+}
+
+ul {
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  justify-content: space-evenly;
+  list-style: none;
 }
 
-.links {
-  opacity: 75%;
-  background: linear-gradient(to right bottom, #16fef7, #1686fe);
-  border-radius: 10px;
+li {
+  border: solid;
   font-size: 1.2em;
-  font-family: "Poppins", sans-serif;
   padding: 0.4em 2em;
-  width: 300px;
-  text-align: center;
-  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 a {
+  text-decoration: none;
+  font-size: 1.5em;
   color: black;
 }
 
-.icon {
-  animation: icon-anim 1.5s alternate-reverse infinite linear;
+.jonaspace {
+  font-family: "Palanquin Dark", sans-serif;
+  color: #1686fe;
 }
 
-@keyframes icon-anim {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+.library {
+  font-family: "Salsa", cursive;
+  color: #699d99;
+}
+
+span {
+  color: black;
+}
+.instagram {
+  color: #e64d5a;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.facebook {
+  color: #1877f2;
 }
