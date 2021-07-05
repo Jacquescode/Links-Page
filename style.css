@@ -15,15 +15,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ebebeb;
 }
 
 nav {
   width: 400px;
   min-height: 90vh;
+  margin: 0 20px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ebebeb;
+  box-shadow: 0 2.5px 3px -15px rgba(0, 0, 0, 0.031),
+    0 6.1px 7.2px -15px rgba(0, 0, 0, 0.044),
+    0 11.5px 13.5px -15px rgba(0, 0, 0, 0.055),
+    0 20.5px 24.1px -15px rgba(0, 0, 0, 0.066),
+    0 38.4px 45.1px -15px rgba(0, 0, 0, 0.079),
+    0 92px 108px -15px rgba(0, 0, 0, 0.11);
+}
+
+.portrait {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+
+.portrait img {
+  border-radius: 50%;
+}
+
+h4 {
+  color: #444;
 }
 
 ul {
@@ -34,20 +56,23 @@ ul {
   list-style: none;
 }
 
-li {
+a {
   border: solid;
-  font-size: 1.2em;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
   padding: 0.4em 2em;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-decoration: none;
+  color: #111;
+
+  transition: transform 0.4s ease-in-out;
 }
 
-a {
-  text-decoration: none;
-  font-size: 1.5em;
-  color: black;
+a:hover {
+  transform: scale(1.2);
 }
 
 .jonaspace {
@@ -61,10 +86,19 @@ a {
 }
 
 span {
-  color: black;
+  color: #111;
 }
+
 .instagram {
-  color: #e64d5a;
+  background: linear-gradient(
+    30deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
 }
 
 .twitter {
