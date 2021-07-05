@@ -72,6 +72,10 @@ a {
   transition: transform 0.4s ease-in-out;
 }
 
+a:hover {
+    transform: scale(1.2);
+  }
+
 .jonaspace {
   font-family: "Palanquin Dark", sans-serif;
   color: #1686fe;
@@ -110,10 +114,4 @@ span {
 
 .facebook {
   color: #395185;
-}
-
-@media (min-width: 100px) {
-  a:hover {
-    transform: scale(1.2);
-  }
 }
