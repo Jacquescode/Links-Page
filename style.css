@@ -89,7 +89,13 @@ span {
   color: #111;
 }
 
+.github {
+  color: white;
+  background: #111;
+}
+
 .instagram {
+  border: transparent;
   background: linear-gradient(
     30deg,
     #405de6,
@@ -106,5 +112,5 @@ span {
 }
 
 .facebook {
-  color: #1877f2;
+  color: #395185;
 }
