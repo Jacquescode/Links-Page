@@ -54,7 +54,10 @@ ul {
   flex-direction: column;
   justify-content: space-evenly;
   list-style: none;
-  gap: 30px;
+}
+
+li {
+  margin-bottom: 30px;
 }
 
 a {
