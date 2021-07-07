@@ -76,8 +76,8 @@ a {
 }
 
 a:hover {
-  transform: scale(1.2);
-}
+    transform: scale(1.2);
+  }
 
 .jonaspace {
   font-family: "Palanquin Dark", sans-serif;
