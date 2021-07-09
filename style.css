@@ -16,9 +16,26 @@
   justify-content: center;
   align-items: center;
   background-color: #ebebeb;
+  color: #111;
 }
 
-nav {
+.dark-mode {
+  background-color: #000;
+  color: white;
+}
+.button-ctn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.dark-button {
+}
+
+.nav {
+  background-color: #eee;
   min-height: 90vh;
   width: 400px;
   margin: 20px;
@@ -35,21 +52,36 @@ nav {
     0 92px 108px -15px rgba(0, 0, 0, 0.11);
 }
 
+.dark-nav {
+  background-color: #000;
+  box-shadow: 0 2.5px 3px -15px rgba(255, 255, 255, 0.031),
+    0 6.1px 7.2px -15px rgba(255, 255, 255, 0.044),
+    0 11.5px 13.5px -15px rgba(255, 255, 255, 0.055),
+    0 20.5px 24.1px -15px rgba(255, 255, 255, 0.066),
+    0 38.4px 45.1px -15px rgba(255, 255, 255, 0.079),
+    0 92px 108px -15px rgba(255, 255, 255, 0.11);
+}
+
 .portrait {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: #111;
 }
 
+.dark-portrait {
+  color: white;
+}
+
 .portrait img {
   border-radius: 50%;
 }
 
-h4 {
+.portrait h4 {
   color: #444;
 }
 
 ul {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -62,6 +94,7 @@ li {
 
 a {
   min-height: 75px;
+  background-color: #eee;
   border: solid;
   border-width: 0.1em;
   border-radius: 5px;
